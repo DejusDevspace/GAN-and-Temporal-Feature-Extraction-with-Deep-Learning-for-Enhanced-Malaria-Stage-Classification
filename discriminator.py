@@ -1,6 +1,10 @@
 # Discriminator
 class Discriminator(nn.Module):
     def __init__(self, img_size: int):
+        """
+        Args: 
+            img_size (int): Size of the image.
+        """
         super(Discriminator, self).__init__()
 
         self.img_size = img_size
