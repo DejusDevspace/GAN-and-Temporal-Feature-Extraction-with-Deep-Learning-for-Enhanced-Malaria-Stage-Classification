@@ -1,6 +1,11 @@
 # Generator
 class Generator(nn.Module):
     def __init__(self, latent_dim: int, img_size: int):
+        """
+        Args: 
+            latent_dim (int): Size of the input latent vector.
+            img_size (int): Size of the image.
+        """
         super(Generator, self).__init__()
 
         self.latent_dim = latent_dim
